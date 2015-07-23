@@ -1,12 +1,35 @@
-# Site settings
-title: Felipe Pelizaro Gentil
-email: cdigentil@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Ruby on Rails developer at Walmart.com and Kiskadi.com
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://fpgentil.github.io" # the base hostname & protocol for your site
-twitter_username: fpgentil
-github_username:  fpgentil
+name: Felipe Pelizaro Gentil
+description: Soccer · Beer · Code
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-# Build settings
-markdown: kramdown
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://fpgentil.github.io'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://fpgentil.github.io'
+author:         'Felipe Pelizaro Gentil'
+authorTwitter:  'fpgentil'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
