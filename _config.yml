@@ -10,7 +10,7 @@ highlighter: pygments
 paginate: 20
 baseurl: /
 domain_name: 'http://fpgentil.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-66102494-1'
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
