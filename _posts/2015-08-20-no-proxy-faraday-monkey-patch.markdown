@@ -14,7 +14,6 @@ We use [chef][chef] to deal with our infrastructure and also with our environmen
 
 {% highlight ruby %}
 # Set Rails environment for this environment.
-# Available environments: {development|qa|production|stg}
 <% if node.chef_environment == "prod" %>
 RAILS_ENV=production
 http_proxy="http://px.fake.host:3128"
@@ -42,7 +41,7 @@ And then, setup your gem with Faraday classes:
 
 {% highlight ruby %}
 Her::API.setup options do |c|
-  c.use ::Faraday::Request::BasicAuthentication, user, password
+  c.use ::Faraday::Request::BasicAuthentication, usr, passwd
   c.use ::Faraday::Request::UrlEncoded
   c.use ::Faraday::Adapter::NetHttp
 end
