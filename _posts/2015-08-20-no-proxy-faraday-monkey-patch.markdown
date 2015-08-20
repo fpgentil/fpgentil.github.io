@@ -1,6 +1,6 @@
 ---
 title:  "NO_PROXY monkey patch for Faraday"
-date:   2015-08-04 20:00:00
+date:   2015-08-20 20:00:00
 description: How to avoid HTTP requests over proxy with ENV['no_proxy']
 ---
 
