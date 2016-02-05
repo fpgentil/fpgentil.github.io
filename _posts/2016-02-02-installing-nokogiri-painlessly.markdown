@@ -1,6 +1,6 @@
 ---
 title:  "Installing nokogiri painlessly"
-date:   2016-01-25 22:00:00
+date:   2016-02-02 22:00:00
 description: "How to avoid any issue with libxml2 while installing the gem"
 ---
 
