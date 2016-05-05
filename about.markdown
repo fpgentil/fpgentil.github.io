@@ -4,17 +4,19 @@ permalink: about/
 profile: true
 ---
 
-I'm a Ruby developer living in [Araraquara, São Paulo - Brazil][aqa]. Currently I'm working as a consultant developer focused on back-end features at [Walmart][walmart], I also work as a freelancer developer for a great startup based in the south of the country called [Kiskadi][kiskadi].
-
-I started working with ruby when I was still in college back in 2010, while I was working as a .NET developer I started working on my own projects using ruby, that never stopped!
-In Aug '12 I met the CEO of Kiskadi and he invited me to start working for them, one year later in Sep '13 I joined the team at Walmart.
-
-I often tweet [here][twitter] and you can see my open source work [here][github].
-
-[aqa]: https://www.google.com/maps?q=araraquara
-[kiskadi]: http://www.kiskadi.com.br
-[walmart]: https://www.walmart.com.br
-[twitter]: https://www.twitter.com/fpgentil
-[github]: https://www.github.com/fpgentil
+<h2>TL;DR</h2>
+<br/>
+<p>
+  I'm a Ruby developer living in Araraquara, São Paulo - Brazil.
+</p>
+<p>
+  Currently I'm working as a consultant developer focused on back-end features at Walmart.com.
+</p>
+<p>
+  The stack is basically Nginx, Unicorn and then Ruby with Sinatra and Rails (there are several applications, it's not entirely micro-services oriented though), we also use Docker, Chef and Jenkins.
+</p>
+<p>
+  Whenever I can (and have free time), I do some OS projects and tweet about random things!
+</p>
 
 {% include footer.html %}
