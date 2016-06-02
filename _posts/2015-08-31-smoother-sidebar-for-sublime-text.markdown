@@ -15,9 +15,19 @@ Here is a simple trick to make the sidebar look better.
 ## Modified sidebar
 ![zsh](/assets/images/modified-sidebar.png)
 
-All you have to do is open your Sublime Text default configurations, if you're on MacOS it can be found here **/Users/<USER_NAME>/Library/Application Support/Sublime Text 3/Packages/User**, the file is named **Default.sublime-theme**, in case you don't have it, just create one.
+All you have to do is open your Sublime Text default configurations, if you're on MacOS it can be found here
 
-The whole configutarion can be found [here][monokai-theme].
+```
+/Users/<USER_NAME>/Library/Application Support/Sublime Text 3/Packages/User
+```
+
+and the file is named
+
+```
+Default.sublime-theme
+```
+
+in case you don't have it, just create one. The whole configuration can be found [here][monokai-theme].
 
 In case you wan't to return to the original one, you can replace back with this [one][defaul-theme] or simply delete the file.
 
