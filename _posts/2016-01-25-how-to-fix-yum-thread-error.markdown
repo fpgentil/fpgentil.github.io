@@ -1,7 +1,7 @@
 ---
 title:  "'YUM: Thread died in Berkeley DB library'"
 date:   2016-01-25 22:00:00
-description: "..failed: Thread died in Berkeley DB library | Fatal error, run database recovery"
+description: 
 ---
 
 At work I've been using rpm packages to deploy the application since forever. Sometimes, for an unknown reason (perhaps because all the operations are done remotely with the CI), all the operations with yum stop working and all I get is:

@@ -1,7 +1,7 @@
 ---
 title:  "Using Sidekiq and DelayedJob simultaneously"
 date:   2016-05-16 08:00:00
-description: "How to deal with both implementation of `delay` method"
+description: 
 ---
 
 I'm working on a project at the moment in which DelayedJob was the one responsible for doing all the background job. For a new feature, we have decided to use Sidekiq instead.

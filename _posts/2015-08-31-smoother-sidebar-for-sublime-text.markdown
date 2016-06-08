@@ -1,7 +1,7 @@
 ---
 title:  "Smoother sidebar for Sublime Text"
 date:   2015-08-31 11:00:00
-description: Simple sidebar theme
+description: 
 ---
 
 I mentioned here before that I work [Sublime Text 3][sublime-text-3] for my daily coding life! If there's something that I particularly don't like it is the sidebar theme. I think it contrasts too much with the current open tab one, unless you use a white based theme.

@@ -1,7 +1,7 @@
 ---
 title:  "Installing nokogiri painlessly"
 date:   2016-02-02 22:00:00
-description: "How to avoid any issue with libxml2 while installing the gem"
+description: 
 ---
 
 If you're a rails developer, I'm pretty sure you have already found this image below:

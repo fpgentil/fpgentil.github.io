@@ -1,7 +1,7 @@
 ---
 title:  "My development environment"
 date:   2015-08-04 20:00:00
-description: MacOS, ZSH, Sublime Text, vim...
+description: 
 ---
 
 Since this is the first post here after 2 years without blogging, I've decided to start with my 24/7 development environment.

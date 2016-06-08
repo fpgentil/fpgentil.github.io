@@ -1,7 +1,7 @@
 ---
 title:  "Rescuing OpenURI::HTTPError with a specific code"
 date:   2016-02-05 08:00:00
-description: "OpenURI, Exceptions and HTTP Status Codes"
+description: 
 ---
 
 ## Catching the right exception

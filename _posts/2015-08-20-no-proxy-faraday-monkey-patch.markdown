@@ -1,7 +1,7 @@
 ---
 title:  "NO_PROXY monkey patch for Faraday"
 date:   2015-08-20 20:00:00
-description: How to avoid HTTP requests over proxy with ENV['no_proxy']
+description: 
 ---
 
 At work we've been using [Faraday][faraday] as our main HTTP library. We have four application that communicate with each other ussing HTTP. The architecture is a little bit complex and some of the hosts have acccess to the outside world and some don't. Because of that, sometimes we have to ignore the proxy and go directly from one host to another, using its VIP.

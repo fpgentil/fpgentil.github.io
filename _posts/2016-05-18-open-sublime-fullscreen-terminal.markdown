@@ -1,7 +1,7 @@
 ---
 title:  "Opening Sublime Text in fullscreen mode"
 date:   2016-05-18 08:00:00
-description: "That shoud work both on MacOS and Linux"
+description: 
 ---
 
 This is just a quick tip for those who use Sublime Text in fullscreen mode.
