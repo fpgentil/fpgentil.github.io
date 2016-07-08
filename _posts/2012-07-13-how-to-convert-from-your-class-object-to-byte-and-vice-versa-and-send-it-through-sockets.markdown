@@ -1,6 +1,6 @@
 ---
 title:  "Your class to byte[] and vice using C#"
-date:   2011-03-05 20:00:00
+date:   2012-07-13 20:00:00
 description:
 ---
 

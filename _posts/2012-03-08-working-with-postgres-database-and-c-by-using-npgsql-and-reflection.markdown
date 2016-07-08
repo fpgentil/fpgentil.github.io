@@ -1,6 +1,6 @@
 ---
 title:  "Working with Postgres and C# using Npgsql"
-date:   2011-03-05 20:00:00
+date:   2012-03-08 20:00:00
 description:
 ---
 

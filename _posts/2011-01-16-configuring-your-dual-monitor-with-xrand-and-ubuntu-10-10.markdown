@@ -1,6 +1,6 @@
 ---
 title:  "Dual monitor with XRAND and Ubuntu 10.10"
-date:   2011-03-05 20:00:00
+date:   2011-01-16 20:00:00
 description:
 ---
 

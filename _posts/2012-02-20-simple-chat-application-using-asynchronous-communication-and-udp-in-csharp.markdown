@@ -1,6 +1,6 @@
 ---
 title:  "Simple async chat application with UDP in C#"
-date:   2011-03-05 20:00:00
+date:   2012-02-20 20:00:00
 description:
 ---
 
