@@ -7,7 +7,7 @@ profile: true
 <h2>TL;DR</h2>
 <br/>
 <p>
-  I'm a Ruby developer living in São Paulo - Brazil.
+  I'm a software engineer living in São Paulo - Brazil.
 </p>
 <p>
   I'm a software engineer at Walmart.com.
