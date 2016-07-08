@@ -1,7 +1,7 @@
 ---
 title:  "Smoother sidebar for Sublime Text"
 date:   2015-08-31 11:00:00
-description: 
+description:
 ---
 
 I mentioned here before that I work [Sublime Text 3][sublime-text-3] for my daily coding life! If there's something that I particularly don't like it is the sidebar theme. I think it contrasts too much with the current open tab one, unless you use a white based theme.
@@ -10,10 +10,10 @@ I love monokai and have been using it since the beginning.
 Here is a simple trick to make the sidebar look better.
 
 ## Default sidebar
-![zsh](/assets/images/default-sidebar.png)
+![zsh](/assets/images/sidebar/default-sidebar.png)
 
 ## Modified sidebar
-![zsh](/assets/images/modified-sidebar.png)
+![zsh](/assets/images/sidebar/modified-sidebar.png)
 
 All you have to do is open your Sublime Text default configurations, if you're on MacOS it can be found here
 

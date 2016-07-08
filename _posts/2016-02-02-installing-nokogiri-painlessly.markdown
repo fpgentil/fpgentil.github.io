@@ -1,12 +1,12 @@
 ---
 title:  "Installing nokogiri painlessly"
 date:   2016-02-02 22:00:00
-description: 
+description:
 ---
 
 If you're a rails developer, I'm pretty sure you have already found this image below:
 
-![zsh](/assets/images/nokogiri_fail.png)
+![zsh](/assets/images/nokogiri/nokogiri_fail.png)
 
 Most of the cases, that happens because nokogiri depends on libxml2 and it's probably not finding it. There are thousand options that you can give before installing like this list:
 

@@ -12,7 +12,7 @@ description:
 
  So, let’s get started with our code. I just created an application, dragged and dropped some components, it looks like this now:
 
- ![zsh](/assets/images/chat_1.png)
+ ![zsh](/assets/images/chat/chat_1.png)
 
  Our application will run as the sender and the receiver at the same time, to make it more beautiful, you can open 2 instances of the same app, bind each one to different ports and send the message to each other, it will probably run in different machines too, since they are in the same network. Alegre
 
@@ -158,13 +158,13 @@ private void btnSend_Click(object sender, EventArgs e)
 
 I believe the first time you run your application if you have your firewall enabled, Windows will ask if you allow your app to use its resources like this:
 
-![zsh](/assets/images/chat_2.png)
+![zsh](/assets/images/chat/chat_2.png)
 
 Just allow its access. Running our application!
 
-![zsh](/assets/images/chat_3.png)
-![zsh](/assets/images/chat_4.png)
-![zsh](/assets/images/chat_5.png)
+![zsh](/assets/images/chat/chat_3.png)
+![zsh](/assets/images/chat/chat_4.png)
+![zsh](/assets/images/chat/chat_5.png)
 
 Pretty easy, right? Hope you like this post.
 

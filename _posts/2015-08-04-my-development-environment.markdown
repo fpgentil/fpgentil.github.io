@@ -1,7 +1,7 @@
 ---
 title:  "My development environment"
 date:   2015-08-04 20:00:00
-description: 
+description:
 ---
 
 Since this is the first post here after 2 years without blogging, I've decided to start with my 24/7 development environment.
@@ -36,7 +36,7 @@ Terminal
 ========
 As every (?) mac user, [iTerm2][iterm2] as the default-24/7-never-close terminal. I <3 [zsh][zsh] and get all the stuff setup with [oh-my-zsh][oh-my-zsh].
 
-![zsh](/assets/images/zsh.png)
+![zsh](/assets/images/environment/zsh.png)
 
 Communication
 =============

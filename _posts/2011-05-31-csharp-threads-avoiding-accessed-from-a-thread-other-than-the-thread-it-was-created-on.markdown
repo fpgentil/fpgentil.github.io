@@ -23,7 +23,7 @@ Here we go, let’s start by creating a new application.
 
 So far, my applications looks like that:
 
-![zsh](/assets/images/threads_1.png)
+![zsh](/assets/images/threads/threads_1.png)
 
 Before everything make sure you included the right dependencies.
 
@@ -114,7 +114,7 @@ private void button2_Click(object sender, EventArgs e)
 
 Let’s run our application now.
 
-![zsh](/assets/images/threads_2.png)
+![zsh](/assets/images/threads/threads_2.png)
 
 Click on the “Start” button to see how cool is that. While the number is being increased you’re able to write on the TextBox.
 
