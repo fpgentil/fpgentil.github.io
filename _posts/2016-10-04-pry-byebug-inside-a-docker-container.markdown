@@ -1,5 +1,5 @@
 ---
-title:  "Using binding.pry inside a Docker container"
+title:  "Using pry/byebug inside a Docker container"
 date:   2016-10-04 18:00:00
 description:
 ---
@@ -58,6 +58,19 @@ From: /myapp/app/controllers/home_controller.rb @ line 3 HomeController#index:
 [1] pry(#<HomeController>)>
 ```
 
+It is important to notice that it works also with [byebug][byebug]
+
+```
+[1, 5] in /myapp/app/controllers/home_controller.rb
+   1: class HomeController < ApplicationController
+   2:     def index
+   3:         byebug
+=> 4:     end
+   5: end
+(byebug)
+```
+
 Hope it helps :)
 
 [pry]:http://pryrepl.org/
+[byebug]:https://github.com/deivid-rodriguez/byebug
