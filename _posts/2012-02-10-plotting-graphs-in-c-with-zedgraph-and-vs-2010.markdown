@@ -1,5 +1,5 @@
 ---
-title:  "Plotting graphs in c# with ZedGraph and VS 2010"
+title:  "Plotting graphs in C# with ZedGraph and VS 2010"
 date:   2012-02-10 08:00:00
 description:
 ---
@@ -14,28 +14,22 @@ So, let’s get some code done!
 
 1) Download ZedGraph, create your project and paste “ZedGraph.dll” into your project’s folder.
 
-## zedgraph1
 ![zedgraph1](/assets/images/zedgraph/zedgraph1.png)
 
 2) Now you must add ZedGraph as Reference in your project.
 
-## zedgraph2
 ![zedgraph2](/assets/images/zedgraph/zedgraph2.png)
 
-## zedgraph3
 ![zedgraph3](/assets/images/zedgraph/zedgraph3.png)
 
 3) Then, open up your ToolBox and add ZedGraph there so this will let you drag and drop it.
 
-## zedgraph4
 ![zedgraph4](/assets/images/zedgraph/zedgraph4.png)
 
-## zedgraph5
 ![zedgraph5](/assets/images/zedgraph/zedgraph5.png)
 
 4) Alright, so now drag and drop ZedGraph into your form. Probably you have something like this now:
 
-## zedgraph6
 ![zedgraph6](/assets/images/zedgraph/zedgraph6.png)
 
 Since this is just a tutorial, I’m going to make some random plots, trying to approach you to ZedGraph’s magic Smiley mostrando a língua.
@@ -126,7 +120,6 @@ private void axisChangeZedGraph(ZedGraphControl zg)
 
 And the result should be...
 
-## zedgraph7
 ![zedgraph7](/assets/images/zedgraph/zedgraph7.png)
 
 Thanks :)
