@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Ruby, Rails, Linux, HTML/CSS, Docker, Devops
+percentage: 90, 90, 80, 70, 70, 60

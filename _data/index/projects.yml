@@ -1,0 +1,19 @@
+- name: thesaurus-ruby
+  descr: "Ruby implementation of Thesaurus.com"
+  github: https://github.com/fpgentil/thesaurus-ruby
+
+- name: terminal_crontab
+  descr: "Crontab to Human and vice versa from command line"
+  github: https://github.com/fpgentil/terminal_crontab
+
+- name: money_conversion
+  descr: "An awesome currency converter with arithmetic support"
+  github: https://github.com/fpgentil/money_conversion
+
+- name: oxford_learners_dictionaries
+  descr: "Awesome Parser for Oxford Learners Dictionary."
+  github: https://github.com/fpgentil/oxford_learners_dictionaries
+
+- name: daily-fortune-server
+  descr: "Daily Fortune"
+  github: https://github.com/fpgentil/daily-fortune-server

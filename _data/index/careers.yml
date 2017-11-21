@@ -1,0 +1,26 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Walmart.com
+  link: http://www.walmart.com.br/
+  date: July 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Ruby on Rails Developer
+
+- name: Ruby on Rails Developer
+  link: http://www.s2it.com.br/
+  date: 2013 - 2016
+  job: Ruby on Rails Developer
+
+- name: Kiskadi
+  link: http://www.kiskadi.com/
+  date: 2012 - 2016
+  job: Full Stack Developer
+
+- name: Fine Instrument Technologies
+  link: http://www.fitinstrument.com/
+  date: 2011 - 2013
+  job: C# Developer
+
+- name: ECCJr Unesp
+  link: https://www.unesp.br/
+  date: 2008 - 2009
+  job: C# Developer Intern
