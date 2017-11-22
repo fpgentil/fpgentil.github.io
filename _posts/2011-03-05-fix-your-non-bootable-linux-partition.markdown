@@ -1,16 +1,19 @@
 ---
+layout: post
 title:  "Fix your non-bootable linux partition"
 date:   2011-03-05 20:00:00
-description:
+categories: [tutorial]
 ---
 
 I have a dual boot laptop, Ubuntu 10.10 which I use the most of the time, rails and C++, and Windows 7, the one that I live most to develop in .NET.
 
 It happened twice with me, and I still don’t know why, sometimes I just turn my computer on and Ubuntu cannot be mounted! Grub seems to be working correctly, so is Windows, although Ubuntu does not work with neither of my kernel versions.
 
+<!--more-->
+
 It keeps sending me a message:
 
-```
+{% highlight shell %}
 mount: mounting /dev/disk/by-uuid/758efa4f-7500-4143-8b50-b1d0af4cdeaa on /root
 failed: Invalid argument
 mount: mounting /dev on /root/dev failed: no such file or directory
@@ -23,7 +26,7 @@ BusyBox v1.13.3 (Ubuntu 1:1.13.3-1ubuntu11) built-in shell (ash)
 Enter 'help' for a list of built-in commands.
 
 (initramfs)
-```
+{% endhighlight %}
 
 Pretty weird, right?
 
@@ -35,13 +38,13 @@ First step you got to do is boot you Ubuntu via live CD or USB drive.
 
 When your Ubuntu is running, open you terminal and type:
 
-```
+{% highlight shell %}
 $ sudo fdisk -l
-```
+{% endhighlight %}
 
 And then you should get something like:
 
-```
+{% highlight shell %}
 Disk /dev/sda: 160.0 GB, 160041885696 bytes
 255 heads, 63 sectors/track, 19457 cylinders
 Units = cylinders of 16065 * 512 = 8225280 bytes
@@ -58,24 +61,24 @@ Disk identifier: 0x7a92d565
 /dev/sda8            6564        7649     8715264   83  Linux
 
 Partition table entries are not in disk order
-```
+{% endhighlight %}
 
 Well, now you already know which partition cannot be mounted. In my case, it’s the /dev/sda7 one.
 
 You can also use the command below to check the UUID that has not being mounted:
 
-```
+{% highlight shell %}
 $ sudo blkid
-```
+{% endhighlight %}
 
 And get something like:
 
-```
+{% highlight shell %}
 /dev/sda1: UUID="4A30F40E30F3FEAF" TYPE="ntfs"
 /dev/sda5: UUID="6A987DB9987D847B" TYPE="ntfs"
 /dev/sda6: UUID="6072f9ab-7d4f-4ef9-937d-2e22cdb1cd91" TYPE="swap"
 /dev/sda7: UUID="758efa4f-7500-4143-8b50-b1d0af4cdeaa" TYPE="ext4"
-```
+{% endhighlight %}
 
 It means I have 2 NTFS partitions, one is where my Windows 7 is installed, the second one I use for saving data, and then 3 partitions where my Ubuntu lives, swap, home and root.
 
@@ -83,9 +86,9 @@ Very important: Here you can see that the UUID matches with the one that gave yo
 
 Now that we know everything we need to fix the problem, here it goes the magic. There’s just one command you need to run to fix the partition and make it bootable again.
 
-```
+{% highlight shell %}
 $ sudo fsck /dev/sda7
-```
+{% endhighlight %}
 
 PS. If you are the one that like to know everything, you can check the documentation of ‘fsck’ [here][fsck].
 

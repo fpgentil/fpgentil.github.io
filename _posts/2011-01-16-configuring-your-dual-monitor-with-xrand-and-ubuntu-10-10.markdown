@@ -1,10 +1,13 @@
 ---
+layout: post
 title:  "Dual monitor with XRAND and Ubuntu 10.10"
 date:   2011-01-16 20:00:00
-description:
+categories: [tutorial]
 ---
 
 Well, I had (twice) troubles with the combination of a Full HD monitor, my Intel 945GM video card and Ubuntu 10.10. Everybody knows that there’s something unfinished when you want to configure them. So, I’m going to give you this brief tutorial explaing how to configure it without any kind of mess.
+
+<!--more-->
 
 First of all, if you have any idea what I’m talking about, but you already know that you cannot configure your dual, or even single monitor via VGA or HDMI you should take a look at [Xrand Manual][xrand] and try to understand how it works.
 
@@ -20,27 +23,27 @@ If everything went well until here, next lines are easy, just copy and paste it.
 
 Now, we should create a new mode line for your xrandr.
 
-```
+{% highlight shell %}
 xrandr –newmode "X" 195 1920 2040 2248 2576 1080 1081 1084 1118 -HSync +Vsync
-```
+{% endhighlight %}
 
 Later, add the mode line earlier created.
 
-```
+{% highlight shell %}
 xrandr –addmode VGA1 "X"
-```
+{% endhighlight %}
 
 Select your output with this mode
 
-```
+{% highlight shell %}
 xrandr –output VGA1 –mode "X"
-```
+{% endhighlight %}
 
 Finally, this is optional, but if you’d like to use your Full HD monitor as the primary one, follow the next line and hit ENTER.
 
-```
+{% highlight shell %}
 xrandr –output VGA1 –primary
-```
+{% endhighlight %}
 
 Well, that’s it! Pretty simple, huh?
 
