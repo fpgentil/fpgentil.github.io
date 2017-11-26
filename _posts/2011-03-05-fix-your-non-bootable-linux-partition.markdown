@@ -2,12 +2,10 @@
 layout: post
 title:  "Fix your non-bootable linux partition"
 date:   2011-03-05 20:00:00
-categories: [tutorial]
+categories: [linux]
 ---
 
-I have a dual boot laptop, Ubuntu 10.10 which I use the most of the time, rails and C++, and Windows 7, the one that I live most to develop in .NET.
-
-It happened twice with me, and I still don’t know why, sometimes I just turn my computer on and Ubuntu cannot be mounted! Grub seems to be working correctly, so is Windows, although Ubuntu does not work with neither of my kernel versions.
+I have a dual boot laptop, Ubuntu 10.10 which I use the most of the time, rails and C++, and Windows 7, the one that I live most to develop in .NET. It happened twice with me, and I still don’t know why, sometimes I just turn my computer on and Ubuntu cannot be mounted! Grub seems to be working correctly, so is Windows, although Ubuntu does not work with neither of my kernel versions...
 
 <!--more-->
 

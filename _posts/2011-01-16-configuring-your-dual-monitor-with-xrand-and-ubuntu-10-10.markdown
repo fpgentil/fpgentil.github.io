@@ -2,10 +2,10 @@
 layout: post
 title:  "Dual monitor with XRAND and Ubuntu 10.10"
 date:   2011-01-16 20:00:00
-categories: [tutorial]
+categories: [linux]
 ---
 
-Well, I had (twice) troubles with the combination of a Full HD monitor, my Intel 945GM video card and Ubuntu 10.10. Everybody knows that there’s something unfinished when you want to configure them. So, I’m going to give you this brief tutorial explaing how to configure it without any kind of mess.
+Well, I had (twice) troubles with the combination of a Full HD monitor, my Intel 945GM video card and Ubuntu 10.10. Everybody knows that there’s something unfinished when you want to configure them. So, I’m going to give you this brief tutorial explaing how to configure it without any kind of mess...
 
 <!--more-->
 
