@@ -34,12 +34,12 @@ kramdown:
 owner:
   name: Felipe Gentil
   avatar: fpgentil.jpg
-  job: "Ruby Developer"
-  bio: "Collection of code snippets and simple tutorials!"
+  job: "Software Engineer"
+  bio: "Software engineer and cook aspirant"
   email: cdigentil@gmail.com
   disqus-shortname: felipegentil
   twitter: fpgentil
-  facebook: fpgentil
+  facebook:
   google:
     plus: #username
     analytics: UA-66102494-1
